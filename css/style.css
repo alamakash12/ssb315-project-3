@@ -1,0 +1,464 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+   line-height: 24px;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Roboto', sans-serif;
+}
+a,a:hover{
+	text-decoration: none
+}
+.header-section{
+	width: 100%;
+	background: url("../img/bg.png") center top no-repeat ;
+	background-size: cover;
+	height: 116vh;
+}
+.main-header{
+	width: 100%;
+	padding: 60px 0px;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link.active{
+	color: #fff;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #a8a8a7;
+font-size: 14px;
+text-transform: capitalize;
+font-weight: 500;
+margin: 0px 15px;
+text-transform: uppercase;
+padding: 0px;
+margin-top: 5px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:focus, .header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+
+}
+.header-section .btn-info{
+	padding: 5px 35px;
+	margin-left: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	border: none;
+	border-radius: 35px;
+	background: transparent;
+}
+.header-section .btn-info:hover, .header-section .btn-info:focus{
+	border: 1px solid #fff;
+	border-radius: 35px;
+	color: #000;
+	background: #fff;
+}
+.header-banner{
+	width: 100%;
+	padding: 150px 0px;
+}
+.inner-banner{
+	width: 100%;
+	padding: 100px 0px;
+	text-align: center;
+	margin-top: -70px
+}
+.inner-banner h1{
+    font-size: 60px;
+font-weight: 600;
+color: #fff;
+text-align: center;
+}
+.inner-banner h1 span{
+  color: #511de5;
+
+}
+.inner-banner .btn-primary{
+   padding: 12px 40px;
+margin-left: 10px;
+font-size: 14px;
+font-weight: 500;
+text-transform: uppercase;
+border: none;
+border-radius: 35px;
+background: linear-gradient(to right, #de4527,#f39d31);
+color: #fff;
+margin-top: 20px;
+} 
+
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+	background: linear-gradient(to right, #f39d31,#de4527);
+}
+
+/*header dection end */
+/*item dection stsrt */
+.item{
+  width: 100%;
+padding: 20px 0px;
+}
+.inner-item{
+     width: 100%;
+padding: 40px 30px;
+box-shadow: 2px 2px 2px 2px #f2f2f2;
+margin-top: -160px;
+background: #fff;
+}
+.inner-item h2{
+  font-size: 30px;
+font-weight: 600;
+color: #000;
+}
+.inner-item p{
+   font-size: 14px;
+font-weight: 500;
+color: #7d7d7d;
+line-height: 28px;
+padding: 10px 0px;
+
+}
+.item .btn-info{
+    font-size: 14px;
+font-weight: 500;
+border: none;
+border-radius: 35px;
+padding: 10px 20px;
+background: #f3a032;
+} 
+.inner-item .btn-info2{
+	margin-left: 14px;
+color: #000;
+font-size: 14px;
+font-weight: 500;
+}
+/*item dection end */
+/*why we dection stsrt */
+
+.why{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-why{
+   width: 100%
+   padding:50px 0px;
+   text-align: center;
+}
+.inner-why h1{
+    font-weight: 700;
+    font-size:50px;
+    color: #000;
+    padding: 20px 0px;
+}
+.inner-why p{
+    color: #7f7f7f;
+font-size: 18px;
+font-weight: 496;
+letter-spacing: 1px;
+}
+.why-items{
+    width: 100%;
+    padding: 20px 0px;
+}
+.why-items img{
+    padding: 20px 0px;
+}
+.why-items p{
+   font-size: 14px;
+line-height: 28px;
+color: #7f7f7f;
+font-weight: 496;
+letter-spacing: 1px;
+padding: 10px 0px;
+}
+/*why we dection end */
+/*working we decstsrt */ 
+.working{
+  width: 100%;
+	padding: 80px 0px;
+	background: #f6f6f6;
+}
+.inner-working{
+  width: 100%;
+   padding:50px 0px;
+   text-align: center;
+}
+.inner-working h1{
+    font-weight: 700;
+    font-size:50px;
+    color: #000;
+    padding: 20px 0px;
+}
+.inner-working p{
+   color: #7f7f7f;
+font-size: 18px;
+font-weight: 496;
+letter-spacing: 1px;
+}
+.working-items{
+   width: 100%;
+padding: 40px 0px;
+background: #fff;
+box-shadow: 2px 2px 2px 2px #f2f2f2;
+letter-spacing: 1px;
+}
+.working-items h2{
+   text-align: center;
+font-size: 40px;
+font-weight: 700;
+color: #000;
+}
+.working-items:hover {
+	background: #f3a032;
+}
+.working-items h2:hover{
+	color: #fff;
+}
+/*working we dection end */ 
+
+
+/*advertisers we dection stsrt */ 
+.advertisers{
+     width: 100%;
+     padding: 80px 0px;
+}
+
+
+.advertisers-text{
+ 	width: 100%;
+padding: 100px;
+margin-top: 100px;
+margin-left: 40px;
+   }
+.advertisers-text h2{
+     font-size: 40px;
+font-weight: 700;
+color: #000;
+}
+.advertisers-text p{
+    font-size: 16px;
+font-weight: 400;
+color: #767676;
+line-height: 26px;
+}
+.text-link{
+   font-size: 14px;
+text-transform: uppercase;
+color: #f5b35b;
+font-weight: 500;
+border-bottom: 3px solid #f5b35b;
+}
+.advertisers-download{
+	width: 100%;
+padding: 80px;
+margin-top: -128px;
+margin-left: 40px;
+}
+.advertisers-download img{
+	padding: 0px 10px;
+}
+.advertisers-img{
+     width: 80%;
+padding: 80px 0px 0px;
+}
+
+/* advertisers we dection end */ 
+/*Agenci we dection stsrt */
+.Agenci{
+     width: 100%;
+     padding: 80px 0px;
+     background: #f6f6f6;
+}
+
+.Agenci-text{
+ 	width: 80%;
+padding: 10px 0px;
+margin-left: 140px;
+   }
+.Agenci-text h2{
+     font-size: 40px;
+font-weight: 700;
+color: #000;
+}
+.Agenci-text p{
+    font-size: 16px;
+font-weight: 400;
+color: #767676;
+line-height: 26px;
+}
+.Agenci-items{
+     width: 75%;
+margin-left: 141px;
+padding: 20px 0px;
+}
+.Agenci .Agenci-items ul{
+    list-style: none;
+}
+.Agenci .Agenci-items ul li{
+   font-size: 14px;
+line-height: 28px;
+padding: 20px 0px;
+color: #818181;
+font-weight: 500;
+}
+.Agenci-items2{
+     width: 75%;
+padding: 20px 0px;
+}
+.Agenci .Agenci-items2 ul{
+    list-style: none;
+}
+.Agenci .Agenci-items2 ul li{
+   font-size: 14px;
+line-height: 28px;
+padding: 20px 0px;
+color: #818181;
+font-weight: 500;
+}
+/*Agenci we dection end */
+/*publish we dection stsrt */
+.publish{
+  width: 100%;
+padding: 80px 0px;
+background: #000;
+background-image: url(../img/p-cover.png);
+}
+.inner-publish{
+  width: 100%;
+   padding:50px 0px;
+   text-align: center;
+}
+.inner-publish h1{
+    font-weight: 700;
+    font-size:50px;
+    color: #fff;
+    padding: 20px 0px;
+}
+.inner-publish p{
+   color: #7f7f7f;
+font-size: 14px;
+font-weight: 496;
+letter-spacing: 1px;
+line-height: 30px
+}
+.inner-publish img{
+  margin-top: 70px;
+}
+/*publish we dection end */
+
+/*publish we dection stsrt */
+.Fact{
+  width: 100%;
+padding: 80px 0px;
+
+}
+.inner-Fact{
+  width: 100%;
+   padding:50px 0px;
+   text-align: center;
+}
+.inner-Fact h1{
+    font-weight: 700;
+    font-size:50px;
+    color: #000;
+    padding: 20px 0px;
+}
+.inner-Fact p{
+   color: #7f7f7f;
+font-size: 14px;
+font-weight: 496;
+letter-spacing: 1px;
+line-height: 30px
+}
+.Fact-items{
+
+}
+.Fact-items img{
+   text-align: center;
+margin-left: 38px;
+padding: 10px 0px;
+}
+.Fact-items h4{
+   font-size: 18px;
+line-height: 28px;
+text-align: center;
+padding: 10px 0px;
+}
+/*publish we dection end */
+.contact{
+   width: 100%;
+   padding: 80px 0px;
+   background: url(../img/acontact.png) center top no-repeat;
+   background-size: cover;
+}
+.contact-info{
+   width: 100%;
+   padding: 40px 0px;
+   background: #fff;
+}
+.contact-info p{
+   text-align: center;
+font-size: 16px;
+text-transform: capitalize;
+color: #b0b0b0;
+font-weight: 500;
+}
+.contact-info h4{
+   text-align: center;
+font-size: 40px;
+font-weight: 700;
+color: #000;
+}
+
+.footer{
+    width: 100%;
+    padding: 60px 0px;
+}
+.footer-info{
+    width: 100%;
+    text-align: center;
+}
+.footer-info h4{
+   font-size: 18px;
+line-height: 28px;
+color: #767676;
+}
+.footer-info ul{
+    list-style: none;
+padding: 20px 0px;
+}
+.footer-info ul li{
+   text-decoration: none;
+   display: inline-block;
+}
+.footer-info ul li a{
+padding: 8px;
+color: #767676;
+font-size: 24px;
+}
+
+
+
+ <div class="col-xl-6"> 
+     <div class="Advertisers-text">
+       <h2>Advertisers</h2>
+       <p>That can be definitely said about the contemporary travel websites.<br> Whether it is an page for a local hotel or a feature-heavy portal that<br> belongs to big holiday company, it fantastic interfaces are user<br> magnets.</p>
+       <a href="#">Read More</a>
+       <div class="akash-btn">
+         <a href="#"><img src="img/a1.png"></a>
+         <a href="#"><img src="img/a1.png"></a>
+       </div>
+     </div>
+     </div>
+     <div class="akash-btn">
+       <img src="img/a3.png">
+     </div>

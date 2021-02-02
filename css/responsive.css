@@ -1,0 +1,109 @@
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+ .inner-banner h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-left: -126px;
+}
+  
+ .inner-banner .btn-primary {
+    padding: 12px 20px;
+    margin-left: -118px;
+    margin-top: 28px;
+}
+.inner-item {
+    padding: 30px 30px;
+    margin: -179px 0px 220px;
+    
+}
+
+.why {
+    width: 100%;
+    padding: 40px 0px;
+}
+.why-items {
+    padding: 21px 60px;
+}
+.working-items {
+    margin-top: 15px;
+}
+.advertisers {
+    padding: 0px
+ }
+.advertisers-text {
+    width: 100%;
+    padding: 100px;
+}
+.advertisers-text {
+    width: 100%;
+    padding: 80px 0px;
+
+ }
+.advertisers-text p {
+    font-size: 14px;
+}
+.advertisers-download {
+    width: 100%;
+    padding: 70px;
+    margin-top: -118px;
+    margin-left: -47px;
+}
+.Agenci-text {
+    margin-left:10px;
+ }
+.Agenci-items {
+    margin-left: 0px;
+}
+.Fact-items img {
+    margin-left: 172px;
+}
+.contact-info {
+    margin-left: -80px;
+}
+.footer-info {
+    margin-left: -74px;
+}
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+ .inner-banner h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: -118px;
+}
+.inner-item {
+    width: 100%;
+    padding: 40px 30px;
+    box-shadow: 2px 2px 2px 2px #f2f2f2;
+    margin: -90px 0px 128px;
+    background: #fff;
+}
+
+ 
+  
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ 
+  
+}
